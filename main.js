@@ -3,10 +3,10 @@ function calculateMaturityAmount() {
 
     const principle = parseFloat(document.getElementById('principle').value)
     const interestRate = parseFloat(document.getElementById('interestRate').value)
-    const tenure = parseFloat(document.getElementById('tenure').value)
+    const period = parseFloat(document.getElementById('period').value)
 
     //Calculate
-    const maturityAmount = principle + (principle * interestRate * tenure) / 100
+    const maturityAmount = principle + (principle * interestRate * period) / 100
 
     // Display Result
     document.getElementById('result').innerText = `Maturity Amount: ${maturityAmount.toFixed(2)}`
