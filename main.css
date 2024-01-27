@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.1rem;
+    box-shadow: 0px 0px 2px rgba(198, 193, 193, 0.1);
+    max-width: 45rem;
+    width: 100%;
+}
+
+.container:hover {
+    box-shadow: 5px 5px 10px rgba(31, 31, 31, 0.1);
+    transition: 300ms;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 95%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.result{
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.calculate-btn{
+padding: 10px 20px;
+background-color: #2979ff;
+border-radius: 5px;
+border: none;
+color: #fff;
+font-size: 1.3rem;
+font-weight: bold;
+cursor: pointer;
+}
+
+.calculate-btn:hover {
+    transition: 300ms;
+    background-color: #538ff0;
+}
